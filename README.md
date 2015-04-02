@@ -17,6 +17,15 @@ practice of
 
 ## Problem to solve
 
+We are creating a new design for an fMRI experiment, for which we will
+have a single trial per each of `n` different independent conditions per
+run.
+
+**Question**: *how many possible trial orders there could possibly be?*
+**Approach**: estimate the factorial of `n`
+
+**Solution**:
+
 1. Write recursive `factorial_recursive` to estimate factorial of an
    integer n.
    See [wikipedia](http://en.wikipedia.org/wiki/Factorial) if not sure
