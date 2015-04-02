@@ -1,7 +1,5 @@
 # PSYC161 Homework #1
 
-test push
-
 This homework is a part of the
 [PSYC161 Introduction to Programming for Psychologists & Neuroscientists](https://github.com/dartmouth-pbs/psyc161)
 course work.
