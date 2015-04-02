@@ -20,6 +20,7 @@ have a single trial per each of `n` different independent conditions per
 run.
 
 **Question**: *how many possible trial orders there could possibly be?*
+
 **Approach**: estimate the factorial of `n`
 
 **Solution**:
