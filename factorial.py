@@ -48,12 +48,15 @@ if __name__ == '__main__':
     start_time = time.clock()
     factorial(6)
     recursive_running_time = time.clock() - start_time
-    print "running non-recursive factorial is ", recursive_running_time, "seconds"
+    print "running non-recursive factorial is ", \
+        recursive_running_time, "seconds"
 
     start_time = time.clock()
     factorial_recursive(6)
     non_recursive_running_time = time.clock() - start_time
-    print "running recursive factorial is ", non_recursive_running_time, "seconds"
+    print "running recursive factorial is ", \
+        non_recursive_running_time, "seconds"
 
-    print "time difference between running recursive and non_recursive factorial function is ", \
+    print "time difference between running recursive and non_recursive " \
+          "factorial function is ", \
         recursive_running_time - non_recursive_running_time
